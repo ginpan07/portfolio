@@ -1,11 +1,28 @@
-.header {
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  //scroll-snap-align: start
+}
+
+.introduction {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  border: 1px solid black;
+  //border: 1px solid black;
   height: 300px;
-  margin: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-top: 200px;
 }
 
 .profile {
@@ -14,9 +31,41 @@
   margin: 50px;
 }
 
-.cards {
+.portolio-title {
+  margin-left: 100px;
+}
+
+.portfolio-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
-  border: 1px solid black;
-  height: 300px;
-  margin: 100px;
+  //border: 1px solid black;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.portfolio-pic-one {
+  width: 400px;
+  border-radius: 5%;
+  margin-right: 20px;
+}
+
+.portfolio-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  //border: 1px solid black;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.portfolio-pic-two {
+  width: 400px;
+  //height: 280px;
+  border-radius: 5%;
+  margin-left: 20px;
 }

@@ -1,27 +1,77 @@
-<div class="header">
-  <div class="description">
-    <div class="title">
-      <h1>Software Developer</h1>
-    </div>
-    <div class="title2">
-      <p>Hi, I am Gin Pan. A passionate Software Developer in Melbourne, Australia.</p>
-    </div>
-    <div class="links">
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </div>
 
-  <div class="profile-pic">
-    <%= image_tag("gin1.jpg", class: "profile")  %>
-  </div>
-</div>
 
-<div class="portolio">
-  <div class="cards">
-    <h3>Portfolio</h3>
-    <div class="card">
-       <h3></h3>
+<div class="wrapper">
+
+
+  <section class="one">
+
+    <div class="introduction">
+      <div class="description">
+        <div class="title">
+          <h1>Software Developer</h1>
+        </div>
+        <div class="title2">
+          <p>Hi, I am Gin Pan. A passionate Software Developer in Melbourne, Australia.</p>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="profile-pic">
+        <%= image_tag("gin1.jpg", class: "profile")  %>
+      </div>
+    </div>`
+
+  </section>
+
+
+  <section id="two">
+    <div class="portolio-title">
+      <h5>PORTFOLIO</h5>
     </div>
+
+    <div class="portfolio-one">
+      <div class="portolio-pic-one">
+        <%= image_tag("buildaware.png", class: "portfolio-pic-one")  %>
+      </div>
+
+      <div class="portfolio-content-one">
+        <h5>Build Aware</h5>
+        <div class="portolio-description">
+          <p>An online application for student from the age of 6 to 12 to build
+          self-awaress and for teacher to track students mood througout the day and
+          take action when necessary</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-two">
+      <div class="portfolio-content-two">
+        <h5>Castlaway</h5>
+        <div class="portolio-description">
+          <p>Casltaway is an online castle rental platoform that allows
+          users to rent castle for personal or business use. The website
+          provides an interace for searching, booking and favorting castles.</p>
+        </div>
+      </div>
+
+      <div class="portolio-pic-two">
+        <%= image_tag("castlaway.png", class: "portfolio-pic-two")  %>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <section class="three">
+    <div class="content">
+    <h3>Title</h3>
+    <p class="subheading">
+    Description
+    </p>
   </div>
+  </section>
 </div>
